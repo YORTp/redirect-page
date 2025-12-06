@@ -11,7 +11,7 @@ Telegram Desktop на Windows некорректно открывает **вне
 Добавьте параметр `redirect_to` к URL страницы:
 
 ```
-https://sawgod.github.io/redirect-page/?redirect_to=clash://install-config?url=SUB_URL
+https://yortp.github.io/redirect-page/?redirect_to=clash://install-config?url=SUB_URL
 ```
 
 ### 🤖 Автоматический выбор темы по ОС
@@ -19,7 +19,7 @@ https://sawgod.github.io/redirect-page/?redirect_to=clash://install-config?url=S
 Используйте параметр `system` для автоматического определения темы на основе операционной системы пользователя:
 
 ```
-https://sawgod.github.io/redirect-page/?system&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?system&redirect_to=YOUR_URL
 ```
 
 **Маппинг ОС → Темы:**
@@ -33,7 +33,7 @@ https://sawgod.github.io/redirect-page/?system&redirect_to=YOUR_URL
 Вы можете выбрать конкретную тему оформления с помощью параметра `theme`:
 
 ```
-https://sawgod.github.io/redirect-page/?theme=THEME_NAME&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?theme=THEME_NAME&redirect_to=YOUR_URL
 ```
 
 **Доступные темы:**
@@ -56,19 +56,19 @@ https://sawgod.github.io/redirect-page/?theme=THEME_NAME&redirect_to=YOUR_URL
 
 ```
 # Стандартная тема (Telegram) - тему указывать не нужно
-https://sawgod.github.io/redirect-page/?redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?redirect_to=YOUR_URL
 
 # Автоопределение темы по ОС (рекомендуется)
-https://sawgod.github.io/redirect-page/?system&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?system&redirect_to=YOUR_URL
 
 # Тема Microsoft (ручной выбор)
-https://sawgod.github.io/redirect-page/?theme=microsoft&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?theme=microsoft&redirect_to=YOUR_URL
 
 # Ретро тема
-https://sawgod.github.io/redirect-page/?theme=retro&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?theme=retro&redirect_to=YOUR_URL
 
 # Современная тема Smart
-https://sawgod.github.io/redirect-page/?theme=smart&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?theme=smart&redirect_to=YOUR_URL
 ```
 
 > **Примечание:** Параметр `?theme` имеет приоритет над `?system`. Если указаны оба, будет использована тема из `?theme`.
@@ -200,7 +200,7 @@ https://sawgod.github.io/redirect-page/?theme=smart&redirect_to=YOUR_URL
 
 ### Шаг 3: Используйте свою тему
 ```
-https://sawgod.github.io/redirect-page/?theme=your-theme-name&redirect_to=YOUR_URL
+https://yortp.github.io/redirect-page/?theme=your-theme-name&redirect_to=YOUR_URL
 ```
 
 **Обязательные элементы (ID):**
